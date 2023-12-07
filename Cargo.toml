@@ -1,0 +1,12 @@
+[package]
+name = "arkanoid"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+raylib = { branch = "simplified", git = "https://github.com/TSnake41/raylib-rs" }
+nalgebra = { version = "0.32", features = ["mint"] }
+fastrand = { version = "2.0", features = ["js"] }
+bevy_ecs = { version = "0.12.0", default-features = false }

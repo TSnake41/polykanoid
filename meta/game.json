@@ -1,0 +1,16 @@
+{
+  "title": "Polykanoid",
+  "creation_date": "Novembre 2023",
+  "description": "Arkanoid-like\ndéveloppé à l'aide\nde raylib-rs.",
+  "authors": [
+    "Mia Ayeke (version originale)",
+    "Teddy Astie (refonte complète, sons, raylib 5.0, portage borne P++)"
+  ],
+  "run_command": [
+    "game.exe"
+  ],
+  "tags": [
+    "solo", "versus"
+  ],
+  "mods": []
+}
